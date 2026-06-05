@@ -1,0 +1,173 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== BASE STYLES ===== */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-inter text-gray-800 antialiased;
+    background-color: #0d0d0d;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-playfair;
+  }
+
+  * {
+    @apply box-border;
+  }
+}
+
+/* ===== CUSTOM UTILITIES ===== */
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, #F9A825 0%, #C2185B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .text-gradient-reverse {
+    background: linear-gradient(135deg, #C2185B 0%, #F9A825 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center px-8 py-3 bg-gradient-to-r from-[#C2185B] to-[#880E4F] text-white font-semibold rounded-full shadow-lg transition-all duration-300 hover:shadow-[0_0_30px_rgba(194,24,91,0.5)] hover:scale-105 min-h-[44px];
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center px-8 py-3 border-2 border-[#F9A825] text-[#F9A825] font-semibold rounded-full transition-all duration-300 hover:bg-[#F9A825] hover:text-gray-900 hover:scale-105 min-h-[44px];
+  }
+
+  .section-title {
+    @apply font-playfair text-4xl md:text-5xl font-bold text-white mb-4;
+  }
+
+  .section-subtitle {
+    @apply font-inter text-gray-400 text-lg max-w-2xl mx-auto;
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    @apply rounded-2xl;
+  }
+
+  .gold-divider {
+    background: linear-gradient(90deg, transparent, #F9A825, transparent);
+    height: 1px;
+    @apply w-full my-6;
+  }
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes shimmer {
+  0% { background-position: -1000px 0; }
+  100% { background-position: 1000px 0; }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(0.8); }
+}
+
+/* ===== CUSTOM SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #C2185B, #F9A825);
+  border-radius: 3px;
+}
+
+/* ===== SECTION BASE ===== */
+.section-bg-dark {
+  background: #0d0d0d;
+}
+
+.section-bg-darker {
+  background: #080808;
+}
+
+/* ===== NAVBAR ===== */
+.nav-scrolled {
+  background: rgba(13, 13, 13, 0.95) !important;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 4px 30px rgba(194, 24, 91, 0.15);
+}
+
+/* ===== HERO ===== */
+.hero-gradient {
+  background: linear-gradient(
+    135deg,
+    #0d0d0d 0%,
+    #1a0a12 25%,
+    #2d0a1e 50%,
+    #1a0a12 75%,
+    #0d0d0d 100%
+  );
+}
+
+.hero-overlay {
+  background: radial-gradient(
+    ellipse at 50% 50%,
+    rgba(194, 24, 91, 0.15) 0%,
+    rgba(249, 168, 37, 0.05) 50%,
+    transparent 70%
+  );
+}
+
+/* ===== CARD HOVER ===== */
+.service-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 60px rgba(194, 24, 91, 0.25);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+/* ===== MAP TRANSITIONS ===== */
+.map-container {
+  filter: grayscale(0.85) invert(0.93) contrast(0.9);
+  transition: filter 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.map-container:hover {
+  filter: none;
+}
+
+/* ===== TESTIMONIAL CAROUSEL ===== */
+.testimonial-track {
+  transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* ===== FORM INPUTS ===== */
+.form-input {
+  @apply w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 text-white placeholder-gray-500 font-inter focus:outline-none focus:border-[#C2185B] focus:ring-2 focus:ring-[#C2185B]/20 transition-all duration-300 min-h-[44px];
+}
+
+/* ===== WHATSAPP BUTTON ===== */
+.whatsapp-btn {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* ===== FLOATING PARTICLES (decorative) ===== */
+.particle {
+  position: absolute;
+  border-radius: 50%;
+  animation: sparkle 2s ease-in-out infinite;
+  pointer-events: none;
+}
