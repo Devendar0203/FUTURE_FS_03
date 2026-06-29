@@ -8,7 +8,7 @@
 
 ## 🔗 Live Demo
 
-> 🚀 [https://glamourstudio.vercel.app](https://glamourstudio.vercel.app) *(replace with your actual link)*
+> 🚀 [https://glamourstudio.vercel.app](https://task3-sable-eta.vercel.app/) *(replace with your actual link)*
 
 ---
 
