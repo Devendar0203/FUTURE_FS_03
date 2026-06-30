@@ -6,7 +6,7 @@
 
 A premium, responsive business website built with **React.js**, **Tailwind CSS**, and **Vite**.
 
-<img src="./assets/glamour-studio-home.png" alt="Glamour Studio Homepage" width="100%" />
+<img src="https://github.com/Devendar0203/FUTURE_FS_03/blob/main/src/assets/Screenshot%202026-06-30%20135800.png" alt="Glamour Studio Homepage" width="100%" />
 
 <br>
 
