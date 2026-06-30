@@ -1,165 +1,246 @@
-# 💄 Glamour Studio — Professional Salon Website
+<div align="center">
 
-> A modern, fully responsive business website for **Glamour Studio**, a premier Salon & Beauty Parlour based in Hyderabad, India.
+# Glamour Studio
 
-![Glamour Studio](https://img.shields.io/badge/Status-Live-brightgreen) ![React](https://img.shields.io/badge/React-18-blue) ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3-06B6D4) ![Vite](https://img.shields.io/badge/Vite-Latest-646CFF) ![Vercel](https://img.shields.io/badge/Deployed-Vercel-black)
+### ✨ Modern Salon & Beauty Parlour Website
 
----
+A premium, responsive business website built with **React.js**, **Tailwind CSS**, and **Vite**.
 
-## 🔗 Live Demo
+<img src="./assets/glamour-studio-home.png" alt="Glamour Studio Homepage" width="100%" />
 
-> 🚀 [https://glamourstudio.vercel.app](https://task3-sable-eta.vercel.app/) 
+<br>
 
----
+![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-3-38BDF8?style=for-the-badge&logo=tailwindcss&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-100%25-success?style=for-the-badge)
+![SEO](https://img.shields.io/badge/SEO-Optimized-brightgreen?style=for-the-badge)
 
-## ✨ Features
-
-- **8 fully-coded sections**: Navbar, Hero, About, Services, Gallery, Testimonials, Contact, Footer
-- **Dark luxury theme** with deep rose `#C2185B` + gold `#F9A825` palette
-- **Glassmorphism design** with backdrop blur cards and gradient accents
-- **Smooth animations** — fade-in, slide-up, intersection observer triggered
-- **Sticky Navbar** with active section highlighting and mobile hamburger menu
-- **Services grid** with 8 service cards, prices, badges, and book CTAs
-- **Masonry Gallery** with hover zoom & label overlays
-- **Auto-playing Testimonials Carousel** with arrow navigation and dot indicators
-- **Validated Contact Form** with submission state and loading indicator
-- **Embedded Google Maps** showing MG Road, Hyderabad location
-- **Floating WhatsApp Button** with pulse animation and tooltip
-- **SEO optimized** — proper meta tags, semantic HTML, heading hierarchy
-- **Fully responsive** — mobile-first design with breakpoints for all screen sizes
-- **WCAG AA accessible** — proper contrast ratios, aria labels, focus states
+</div>
 
 ---
 
-## 🗂️ Project Structure
+## 🌐 Live Demo
 
+👉 **https://task3-sable-eta.vercel.app/**
+
+---
+
+# 📖 About The Project
+
+**Glamour Studio** is a modern and elegant salon website designed for beauty businesses.
+
+The website offers a premium user experience with smooth animations, responsive layouts, service showcases, customer testimonials, contact information, Google Maps integration, and WhatsApp support.
+
+It demonstrates modern frontend development using **React.js**, **Tailwind CSS**, and reusable components while following responsive design and SEO best practices.
+
+---
+
+# ✨ Features
+
+- 🎨 Premium Luxury UI
+- 📱 Fully Responsive Design
+- 🧭 Sticky Navigation Bar
+- 💇 Services with Pricing
+- 🖼️ Interactive Gallery
+- ⭐ Customer Testimonials
+- 📞 Contact Form
+- 📍 Google Maps Integration
+- 💬 Floating WhatsApp Button
+- ✨ Smooth Scroll Animations
+- 🌙 Glassmorphism Design
+- 🚀 Fast Performance
+- 🔍 SEO Optimized
+- ♿ Accessible UI
+
+---
+
+# 🛠 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend Library |
+| Vite | Build Tool |
+| Tailwind CSS | Styling |
+| JavaScript (ES6+) | Programming Language |
+| HTML5 | Structure |
+| CSS3 | Styling |
+| PostCSS | CSS Processing |
+
+---
+
+# 📂 Project Structure
+
+```text
+src
+│
+├── components
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── About.jsx
+│   ├── Services.jsx
+│   ├── Gallery.jsx
+│   ├── Testimonials.jsx
+│   ├── Contact.jsx
+│   ├── Footer.jsx
+│   └── WhatsAppButton.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
 ```
-/src
-  /components
-    Navbar.jsx          # Sticky nav with mobile hamburger
-    Hero.jsx            # Full-screen hero with CTA buttons
-    About.jsx           # Business story + highlights + owner card
-    Services.jsx        # 8 service cards with pricing
-    Gallery.jsx         # Masonry image grid with hover effects
-    Testimonials.jsx    # Auto-playing carousel with 6 reviews
-    Contact.jsx         # Form + map + contact info sidebar
-    Footer.jsx          # Full footer with links and social media
-    WhatsAppButton.jsx  # Floating WhatsApp CTA
-  App.jsx               # Main app assembling all components
-  index.css             # Global styles, Tailwind directives, utilities
-```
 
 ---
 
-## 🚀 Getting Started
+# 📱 Responsive Design
 
-### Prerequisites
+Optimized for
 
-- Node.js 18+
-- npm 9+
+- 💻 Desktop
+- 💼 Laptop
+- 📱 Mobile
+- 📟 Tablet
 
-### Installation
+---
+
+# 🎨 Design Highlights
+
+- Premium Dark Theme
+- Deep Rose & Gold Color Palette
+- Elegant Typography
+- Smooth Animations
+- Glassmorphism Cards
+- Modern Buttons
+- Interactive Sections
+- Luxury User Experience
+
+---
+
+# 🔍 SEO Optimizations
+
+✔ Optimized Title Tags
+
+✔ Meta Description
+
+✔ Open Graph Tags
+
+✔ Twitter Cards
+
+✔ Semantic HTML
+
+✔ Heading Hierarchy
+
+✔ Image Alt Text
+
+✔ Mobile Friendly
+
+✔ Fast Loading
+
+✔ Search Engine Optimized
+
+---
+
+# 🚀 Getting Started
+
+## Clone the Repository
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/glamour-studio.git
-cd glamour-studio
+git clone https://github.com/Devendar0203/FUTURE_FS_03.git
+```
 
-# Install dependencies
+## Navigate to Project
+
+```bash
+cd FUTURE_FS_03
+```
+
+## Install Dependencies
+
+```bash
 npm install
+```
 
-# Start development server
+## Start Development Server
+
+```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Build for Production
+## Build for Production
 
 ```bash
 npm run build
 ```
 
-### Preview Production Build
+---
 
-```bash
-npm run preview
-```
+# 🌟 Why This Project?
+
+This project was built to showcase modern frontend development skills by creating a premium salon website with an attractive user interface and responsive design.
+
+It focuses on
+
+- Component-based Architecture
+- Responsive Design
+- User Experience
+- Performance
+- Clean Code
+- SEO Best Practices
+- Reusable Components
 
 ---
 
-## 🛠️ Tech Stack
+# 🚀 Future Improvements
 
-| Technology | Version | Purpose |
-|---|---|---|
-| React | 18+ | UI Framework |
-| Vite | Latest | Build tool & dev server |
-| Tailwind CSS | 3.x | Utility-first styling |
-| PostCSS | 8+ | CSS processing |
-| Autoprefixer | 10+ | CSS vendor prefixes |
-
----
-
-## 🎨 Design System
-
-| Token | Value | Usage |
-|---|---|---|
-| Primary Color | `#C2185B` (Deep Rose) | CTAs, accents, highlights |
-| Secondary Color | `#F9A825` (Gold) | Gradients, badges, icons |
-| Dark BG | `#0d0d0d` | Main background |
-| Card BG | `rgba(255,255,255,0.05)` | Glass cards |
-| Heading Font | Playfair Display | All headings |
-| Body Font | Inter | Body text |
+- 📅 Online Appointment Booking
+- 👤 User Authentication
+- 💳 Payment Gateway
+- 📧 Email Notifications
+- 🌙 Dark / Light Mode
+- 📝 Admin Dashboard
+- ⭐ Customer Reviews
+- 📅 Booking Management
 
 ---
 
-## 📱 Responsive Breakpoints
+# 📸 Project Preview
 
-- **Mobile**: < 640px
-- **Tablet**: 640px – 1024px
-- **Desktop**: > 1024px
+<img src="./assets/glamour-studio-home.png" width="100%" alt="Project Preview"/>
 
 ---
 
-## 🔍 SEO
+# 👨‍💻 Developer
 
-- ✅ `<title>` and `<meta name="description">` configured
-- ✅ Open Graph meta tags
-- ✅ Semantic HTML5 (`header`, `main`, `section`, `footer`, `article`)
-- ✅ Proper heading hierarchy (h1 → h2 → h3)
-- ✅ Alt text on all images
-- ✅ Canonical URL
+**Devendar Bandaru**
 
----
+🔗 GitHub
 
-## 📦 Deployment to Vercel
-
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel --prod
-```
-
-Or connect your GitHub repo to [vercel.com](https://vercel.com) for automatic deployments.
+https://github.com/Devendar0203
 
 ---
 
-## 📋 Business Information
+# ⭐ Support
 
-| Detail | Value |
-|---|---|
-| Business Name | Glamour Studio |
-| Type | Salon & Beauty Parlour |
-| Tagline | "Look Good • Feel Great • Every Day" |
-| Phone | +91 98765 43210 |
-| Email | glamourstudio@gmail.com |
-| Address | 12, MG Road, Hyderabad, Telangana — 500001 |
-| Hours | Mon–Sat, 9:00 AM – 8:00 PM |
+If you like this project,
+
+⭐ Star this repository
+
+🍴 Fork this repository
+
+💻 Clone and explore it
+
+Your support motivates me to build more amazing projects!
 
 ---
 
-## 📄 License
+# 📄 License
 
-© 2026 Glamour Studio. All Rights Reserved.
+This project was developed as part of the **Future Interns Full Stack Development Internship**.
+
+© 2026 Devendar Bandaru. All Rights Reserved.
+
+---
+
+## 🔖 Keywords
+
+React.js • Tailwind CSS • Vite • Frontend Project • Salon Website • Beauty Parlour Website • Responsive Website • Business Website • Landing Page • Modern UI • Glassmorphism • Portfolio Project • Web Development • SEO Friendly • Future Interns
